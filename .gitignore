@@ -1,0 +1,27 @@
+# Build outputs
+build/
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+
+# Example executables
+source/test/test1/client
+source/test/test1/server
+source/test/test2/reg_server
+source/test/test2/rpc_server
+source/test/test2/rpc_client
+source/test/test3/server
+source/test/test3/publish_client
+source/test/test3/subscribe_client
+
+# Local third-party archives
+third/*.zip
+
+# Editor and generated files
+.vscode/
+.idea/
+compile_commands.json
+*.log
